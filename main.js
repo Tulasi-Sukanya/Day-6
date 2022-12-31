@@ -1,6 +1,7 @@
 // 1.Create a button , on click of which new Heading tag h1 should be added with text as "MERN stack" on the screen above button
 function changeText(){
     const heading = document.createElement('h1')
+    heading.innerHTML="MERN stack"
     heading.setAttribute("class","heading")
     document.getElementById("add-heading").appendChild(heading);
 }
